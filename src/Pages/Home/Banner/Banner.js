@@ -10,7 +10,7 @@ const Banner = () => {
   
       </div>
       
-      <div className="details animate__animated animate__slideInDown">
+      <div className=" animate__animated animate__slideInDown details">
         <h1>Sheikh tofayel ahmed</h1>
       </div>
     </div>

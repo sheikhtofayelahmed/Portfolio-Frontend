@@ -1,0 +1,60 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  color: white;
+  z-index: 7;
+}
+.logo {
+  font-size: 3vw;
+  font-family: "Advent Pro", sans-serif;
+}
+.nav {
+  display: none;
+  position: relative;
+}
+.navigation ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation li{
+  font-size: 1vw;
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+.animate__animated.animate__slideInDown {
+  --animate-duration: 2s;
+}
+.sidebar {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  z-index: 9;
+  width: 50vw;
+  max-width: 190px;
+  height: 30vh;
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+}
+
+.hamburger {
+  cursor: pointer;
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    font-size: 7vw;
+  }
+  .nav {
+    display: block;
+  }
+  .navigation{
+    display: none;
+  }
+}

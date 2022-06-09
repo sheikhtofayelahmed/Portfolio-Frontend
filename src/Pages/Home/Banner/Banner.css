@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 .banner {
   position: relative;
 }
@@ -15,7 +15,7 @@
   text-transform: capitalize;
   animation-name: example;
   animation-duration: 1s;
-  animation-delay: 1s;
+  animation-delay: 1s;  
   animation-fill-mode: forwards;
 }
 @keyframes example {
@@ -29,14 +29,14 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  filter: brightness(35%)
+  filter: brightness(50%)
 }
 
 
 @media only screen and (max-width: 600px) {
   .image img {
     object-fit: cover;
-    height: 600px;
+    height:100vh;
   }
   .details {
     top: 50%;
