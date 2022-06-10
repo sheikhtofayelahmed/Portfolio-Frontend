@@ -18,7 +18,7 @@
   .straight-line{
       margin: 20px 0;
       height: 2px;
-      width: 100%;
+      width: 90%;
       background-color: #EEEEEE;
   }
   .contact-info p {
@@ -28,4 +28,11 @@
   }
   .contact-info p svg {
     margin-right: 10px;
+  }
+
+  @media only screen and (max-width: 600px){
+      .Contact{
+          padding: 30px;
+          flex-direction: column;
+      }
   }

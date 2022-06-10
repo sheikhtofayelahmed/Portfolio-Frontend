@@ -3,13 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 .App{
-    /* max-width: 1440px; */
+    position: relative;
     margin: 0 auto;
 }
 .navbar-container{
-    position: fixed;
+    position:  fixed;
     top: 0;
     width: 100vw;
     height: 50px;
-    z-index: 5;
+    z-index: 11111;
   }

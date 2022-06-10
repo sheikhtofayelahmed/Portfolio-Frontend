@@ -1,52 +1,58 @@
-
 .banner {
   position: relative;
 }
 .details {
+  width: 100vw;
   color: white;
   position: absolute;
+  top: 45%;
   text-align: center;
   z-index: 2;
   line-height: 1;
-  
 }
 .details h1 {
-  font-family: 'Great Vibes', cursive;
+  margin-bottom: 60px;
+  font-family: "Great Vibes", cursive;
   text-transform: capitalize;
   animation-name: example;
   animation-duration: 1s;
-  animation-delay: 2s;  
+  animation-delay: 2s;
   animation-fill-mode: forwards;
 }
-.details h2{
+@keyframes example {
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+.details h2 {
   margin-top: 5vh;
   font-size: 1.5rem;
   font-weight: bold;
   font-family: "Advent Pro", sans-serif;
 }
-.button{
+.button {
+  width: 100vw;
   padding: 2rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Open Sans", sans-serif;
+  overflow: hidden;
 }
-.button .btn-1,.btn-2{
+.button .btn-1,
+.btn-2 {
   text-transform: uppercase;
-  width: 10rem;
+  width: 12rem;
   height: 3rem;
   margin: 0 10px;
 }
-.button .btn-1{
+.button .btn-1 {
   border: 2px solid white;
 }
-.button .btn-2{
+.button .btn-2 {
   background-color: white;
   color: black;
-}
-@keyframes example {
-  
-  100% {transform: rotate(-5deg);}
 }
 
 .image img {
@@ -54,59 +60,40 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  filter: brightness(50%)
+  filter: brightness(40%);
 }
-
 
 @media only screen and (max-width: 600px) {
   .image img {
     object-fit: cover;
-    height:100vh;
-  }
-  .details {
-    top: 45%;
-    left: 2vh;
+    height: 100vh;
   }
   .details h1 {
     font-size: 2.4rem;
   }
-  .button{
+  .button {
     padding: 2rem 0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+  }
+  .button .btn-1,
+  .btn-2 {
+    width: 10rem;
   }
 }
-@media only screen and (max-width: 1024px) and (min-width:769px) {
-  
-  .details {
-    top: 45%;
-    left: 33%;
-  }
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
   .details h1 {
     font-size: 2.8rem;
   }
-  
 }
-@media only screen and (max-width: 1500px) and (min-width:1025px)  {
-  
-  .details {
-    top: 45%;
-    left: 33%;
-  }
+@media only screen and (max-width: 1500px) and (min-width: 1025px) {
   .details h1 {
     font-size: 4rem;
   }
-  
 }
-@media only screen and (min-width:1501px)  {
-  
-  .details {
-    top:45%;
-    left: 33%;
-  }
+@media only screen and (min-width: 1501px) {
   .details h1 {
     font-size: 5rem;
   }
-  
 }

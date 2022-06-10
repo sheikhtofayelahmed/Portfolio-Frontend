@@ -10,13 +10,13 @@ const Banner = () => {
       </div>
 
       <div className="details">
-        <div className=" animate__animated animate__slideInDown">
+        <div className=" animate__animated animate__slideInDown ">
           <h1>Sheikh tofayel ahmed</h1>
         </div>
         <h2>web application developer</h2>
         <div className="button">
-          <button className="btn-1 animate__animated animate__fadeInLeft">who i am</button>
-          <button className="btn-2 animate__animated animate__fadeInRight">contact me</button>
+          <button className="btn-1 animate__animated animate__fadeInLeft animate__delay-2s">who i am</button>
+          <button className="btn-2 animate__animated animate__fadeInRight animate__delay-2s">contact me</button>
         </div>
       </div>
     </div>

@@ -26,3 +26,24 @@
   transform: rotate(-5deg);
 }
 
+.skill{
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.skill div{
+    display: flex;
+    padding: 10px;
+}
+.skill svg{
+    padding: 10px;
+}
+@media only screen and (max-width: 600px){
+    .About{
+        padding: 30px;
+        flex-direction: column;
+    }
+    .signature {
+        font-size: 1.5rem;
+      }
+}

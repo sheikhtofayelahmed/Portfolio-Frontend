@@ -11,11 +11,11 @@ const Navbar = () => {
   };
   return (
     <nav className="Navbar">
-      <h1 className="logo animate__animated animate__slideInDown">
+      <h1 className="logo animate__animated animate__slideInDown ">
         tofayel101
       </h1>
       <div className="social">
-        <ul className="animate__animated animate__slideInDown">
+        <ul className="animate__animated animate__fadeInRight animate__delay-4s">
           <li><FontAwesomeIcon icon={faLinkedin} /></li>
           <li><FontAwesomeIcon icon={faGithub} /></li>
           <li><FontAwesomeIcon icon={faFacebook} /></li>

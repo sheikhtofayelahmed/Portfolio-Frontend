@@ -1,5 +1,15 @@
-
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faReact,
+  faNode,
+  faJs,
+  faHtml5,
+  faCss3,
+  faBootstrap,
+  fatail,
+  faGit,
+} from "@fortawesome/free-brands-svg-icons";
 import "./About.css";
 const About = () => {
   return (
@@ -14,8 +24,19 @@ const About = () => {
         </p>
         <h1 className="signature">sheikh tofayel ahmed</h1>
       </div>
-      <div className="">
-        
+      <div className="skill">
+        <div>
+          <FontAwesomeIcon icon={faHtml5}></FontAwesomeIcon>
+
+          <FontAwesomeIcon icon={faCss3}></FontAwesomeIcon>
+
+          <FontAwesomeIcon icon={faJs}></FontAwesomeIcon>
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faReact}></FontAwesomeIcon>
+
+          <FontAwesomeIcon icon={faNode}></FontAwesomeIcon>
+        </div>
       </div>
     </div>
   );
