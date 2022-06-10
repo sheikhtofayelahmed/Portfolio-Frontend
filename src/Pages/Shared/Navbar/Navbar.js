@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBarsStaggered } from "@fortawesome/free-solid-svg-icons";
-import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faLinkedin,faGithub } from '@fortawesome/free-brands-svg-icons'
 import "./Navbar.css";
 import "animate.css";
 const Navbar = () => {
@@ -15,11 +14,11 @@ const Navbar = () => {
       <h1 className="logo animate__animated animate__slideInDown">
         tofayel101
       </h1>
-      <div className="navigation">
-        <ul>
-          <li>Contact</li>
-          <li>Home</li>
-          <li>janina</li>
+      <div className="social">
+        <ul className="animate__animated animate__slideInDown">
+          <li><FontAwesomeIcon icon={faLinkedin} /></li>
+          <li><FontAwesomeIcon icon={faGithub} /></li>
+          <li><FontAwesomeIcon icon={faFacebook} /></li>
         </ul>
       </div>
       <div className="nav">
