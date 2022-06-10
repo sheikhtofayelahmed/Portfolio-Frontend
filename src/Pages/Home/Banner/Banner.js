@@ -15,8 +15,8 @@ const Banner = () => {
         </div>
         <h2>web application developer</h2>
         <div className="button">
-          <button className="btn-1">who i am</button>
-          <button className="btn-2">contact me</button>
+          <button className="btn-1 animate__animated animate__fadeInLeft">who i am</button>
+          <button className="btn-2 animate__animated animate__fadeInRight">contact me</button>
         </div>
       </div>
     </div>

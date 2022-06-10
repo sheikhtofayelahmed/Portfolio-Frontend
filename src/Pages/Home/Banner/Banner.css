@@ -29,6 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Open Sans", sans-serif;
 }
 .button .btn-1,.btn-2{
   text-transform: uppercase;
