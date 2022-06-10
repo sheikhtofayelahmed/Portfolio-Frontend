@@ -18,13 +18,37 @@
   animation-delay: 1s;  
   animation-fill-mode: forwards;
 }
+.details h2{
+  margin-top: 5vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Advent Pro", sans-serif;
+}
+.button{
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button .btn-1,.btn-2{
+  text-transform: uppercase;
+  width: 10rem;
+  height: 3rem;
+  margin: 0 10px;
+}
+.button .btn-1{
+  border: 2px solid white;
+}
+.button .btn-2{
+  background-color: white;
+  color: black;
+}
 @keyframes example {
   
-  100% {transform: rotate(-10deg);}
+  100% {transform: rotate(-5deg);}
 }
 
 .image img {
-  /* width: 360px; */
   padding: 0 auto;
   width: 100%;
   height: auto;
@@ -39,18 +63,23 @@
     height:100vh;
   }
   .details {
-    top: 50%;
-    left: 10%;
+    top: 45%;
+    left: 2vh;
   }
   .details h1 {
     font-size: 2.4rem;
   }
-  
+  .button{
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
 @media only screen and (max-width: 1024px) and (min-width:769px) {
   
   .details {
-    top: 50%;
+    top: 45%;
     left: 33%;
   }
   .details h1 {
@@ -61,7 +90,7 @@
 @media only screen and (max-width: 1500px) and (min-width:1025px)  {
   
   .details {
-    top: 50%;
+    top: 45%;
     left: 33%;
   }
   .details h1 {
@@ -72,7 +101,7 @@
 @media only screen and (min-width:1501px)  {
   
   .details {
-    top: 50%;
+    top:45%;
     left: 33%;
   }
   .details h1 {
