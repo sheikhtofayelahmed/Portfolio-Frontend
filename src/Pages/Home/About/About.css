@@ -10,7 +10,7 @@
   flex-basis: 50%;
 }
 .heading {
-  font-size: 2em;
+  font-size: 2rem;
   margin: 25px 0;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
@@ -25,19 +25,32 @@
   font-size: 3rem;
   transform: rotate(-5deg);
 }
-
 .skill{
+  width: 100%;
+}
+.skill-set{
     font-size: 2.5rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    overflow: hidden;
 }
-.skill div{
+.skill-set div{
     display: flex;
+    align-items: center;
     padding: 10px;
 }
-.skill svg{
-    padding: 10px;
+.skill-set svg{
+    margin: 10px;
+    width: auto;
+    height: 35px;
 }
+.skill-set img{
+  margin: 10px;
+  width: auto;
+  height: 35px;
+}
+
 @media only screen and (max-width: 600px){
     .About{
         padding: 30px;
@@ -46,4 +59,7 @@
     .signature {
         font-size: 1.5rem;
       }
+    .skill{
+      margin-top: 8vh;
+    }
 }
