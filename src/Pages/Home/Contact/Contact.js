@@ -1,6 +1,33 @@
 import React from "react";
+import { useForm } from "react-hook-form";
+import emailjs from "@emailjs/browser";
 import "./Contact.css";
+import { useRef } from "react";
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    
+    emailjs
+      .sendForm(
+        "service_8bhpjoj",
+        "template_8k5t4f9",
+        form.current,
+        "8oURMztO3Ze7BjGU4"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert('sent')
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+      e.target.reset()
+  };
+
   return (
     <div className="Contact">
       <div className="contact-details">
@@ -72,7 +99,34 @@ const Contact = () => {
         </div>
       </div>
       <div className="contact-form">
-          
+        <h1 className="heading">SAY HELLO</h1>
+        <form ref={form} onSubmit={sendEmail} className="form-control">
+          <div className="flex flex-col items-center justify-center">
+            <input
+            name="email"
+              type="email"
+              placeholder="Email"
+              className="input input-bordered input-md w-full max-w-xs my-3 "
+            />
+
+            <input
+              name="number"
+              type="number"
+              placeholder="Your Phone"
+              className="input input-bordered input-md w-full max-w-xs my-3"
+              required
+            />
+
+            <textarea
+              name="message"
+              className="textarea w-80 textarea-bordered my-3 mb-7"
+              placeholder="Your message"
+            ></textarea>
+            <button type="submit" className="btn">
+              submit
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   );

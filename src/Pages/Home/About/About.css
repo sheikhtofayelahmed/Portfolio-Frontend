@@ -26,7 +26,11 @@
   transform: rotate(-5deg);
 }
 .skill{
+  flex-basis: 50%;
   width: 100%;
+}
+.skill h1{
+  display: none;
 }
 .skill-set{
     font-size: 2.5rem;
@@ -61,5 +65,8 @@
       }
     .skill{
       margin-top: 8vh;
+    }
+    .skill h1{
+      display: block;
     }
 }

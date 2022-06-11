@@ -20,11 +20,11 @@ import { useRef } from "react";
 import { useState } from "react";
 
 const About = () => {
-  const boxRef = useRef();
-  const [y,setY]=useState(0)
+  const targetRef = useRef();
+  const [targetPosition,setTargetPosition]=useState(0)
   const getPosition = () => {
-    const c = boxRef.current.offsetTop;
-    setY(c)
+    const c = targetRef.current.offsetTop;
+    setTargetPosition(c)
   };
   useEffect(() => {
     getPosition();
@@ -43,7 +43,6 @@ const About = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  
   return (
     <div className="About">
       <div className="about-details">
@@ -56,7 +55,7 @@ const About = () => {
         </p>
         <h1 className="signature">sheikh tofayel ahmed</h1>
       </div>
-      <div className="skill" ref={boxRef}>
+      <div className="skill" ref={targetRef}>
         <h1 className="heading">SKILLS</h1>
         <div className="skill-set">
           <div className="animate__animated animate__fadeInLeft animate__delay-1s">
