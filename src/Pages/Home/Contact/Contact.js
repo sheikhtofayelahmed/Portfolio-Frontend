@@ -33,10 +33,9 @@ const Contact = () => {
       <div className="contact-details">
         <h1 className="heading">CONTACT ME</h1>
         <p>
-          Feel free to contact us to provide some feedback on our templates,
-          give us suggestions for new templates and themes, or to just say
-          hello! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-          convallis pulvinar.
+          Feel free to contact me to provide some feedback on my projects,
+          give me suggestions for new projects, or to just say
+          hello! I'm waiting for your HELLO!.
         </p>
         <div className="straight-line"></div>
         <div className="contact-info">
@@ -94,7 +93,7 @@ const Contact = () => {
                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
               />
             </svg>{" "}
-            Sylhet,Bangladesh
+            Sylhet, Bangladesh
           </p>
         </div>
       </div>
