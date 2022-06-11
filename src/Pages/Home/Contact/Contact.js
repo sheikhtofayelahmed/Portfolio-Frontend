@@ -101,7 +101,7 @@ const Contact = () => {
       <div className="contact-form">
         <h1 className="heading">SAY HELLO</h1>
         <form ref={form} onSubmit={sendEmail} className="form-control">
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-start justify-center">
             <input
             name="email"
               type="email"
@@ -122,8 +122,8 @@ const Contact = () => {
               className="textarea w-80 textarea-bordered my-3 mb-7"
               placeholder="Your message"
             ></textarea>
-            <button type="submit" className="btn">
-              submit
+            <button type="submit" className="btn3">
+              Send mail
             </button>
           </div>
         </form>

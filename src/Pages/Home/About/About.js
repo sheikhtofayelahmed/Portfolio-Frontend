@@ -48,10 +48,17 @@ const About = () => {
       <div className="about-details">
         <h1 className="heading">ABOUT ME</h1>
         <p>
-          The collaborative process of web development requires close
-          integration of technology and design – two disciplines that inform one
-          another. We make hip and exciting web sites. Big and Small. Concept
-          development, interface design, production management.
+        I'm a very passionate web application developer (MERN) from Bangladesh. I'm an expert in making an industry-standard, fully responsive website with any of the top frameworks of the current time and REACT-based web application for small and medium sized businesses. 
+        <ul>
+      <li>What I know and what I'm experienced about-</li>
+      <li>• I have fluent knowledge of latest React, HTML, CSS , JavaScript ES6 and best practices . </li>
+      <li>• I have working knowledge of NODE.JS, Express and MongoDB. </li>
+      <li>• I have a solid understanding of the HTTP protocol and how server side code works in the front-end. </li>
+      <li>• I also have working knowledge of front-end optimization and performance techniques , cross-browser development and troubleshooting.  </li>
+      <li>• I'm obsessed with lean, clean and organized code. </li>
+      <li>• I'm able to handle multiple projects and competing deadlines. </li>
+      <li>• I have an overall knowledge of usability, accessibility, architecture and navigation.</li>
+      </ul>
         </p>
         <h1 className="signature">sheikh tofayel ahmed</h1>
       </div>
