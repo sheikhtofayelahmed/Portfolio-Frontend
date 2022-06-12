@@ -9,12 +9,33 @@
   font-size: 3vw;
   font-family: "Advent Pro", sans-serif;
 }
-.nav {
+.navigation-desktop ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation-desktop li{
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.navigation-phone {
   display: none;
   position: relative;
 }
+.social {
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 40vh;
+  margin-right: 40px;
+}
 .social ul {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -30,17 +51,34 @@
   --animate-duration: 1s;
 }
 .sidebar {
+  padding: 40px 0 30px 30px;
+  text-transform: uppercase;
+  font-family: "Advent Pro", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
   position: absolute;
   top: 50px;
   right: 0px;
   width: 50vw;
   max-width: 190px;
-  height: 30vh;
+  height: auto;
   border-radius: 20px;
   color: black;
   background-color: white;
 }
-
+.sidebar li {
+  display: flex;
+  align-items: center;
+}
+.sidebar svg {
+  margin-right: 5px;
+}
+.sidebar .resume svg {
+  padding: 0 3px;
+}
+.sidebar .font-awesome svg {
+  font-size: 1.5rem;
+}
 .hamburger {
   cursor: pointer;
   font-size: 2rem;
@@ -51,7 +89,10 @@
   .logo {
     font-size: 7vw;
   }
-  .nav {
+  .navigation-desktop {
+    display: none;
+  }
+  .navigation-phone {
     display: block;
   }
   .social {
@@ -64,7 +105,7 @@
   .social ul {
     flex-direction: column;
   }
-  .social li{
+  .social li {
     font-size: 7vw;
   }
 }
