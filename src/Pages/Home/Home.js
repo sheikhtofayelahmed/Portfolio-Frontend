@@ -3,7 +3,6 @@ import "./Home.css"
 import Banner from "./Banner/Banner"
 import About from './About/About';
 import Contact from './Contact/Contact';
-import Navbar from '../Shared/Navbar/Navbar';
 import Projects from './Projects/Projects';
 const Home = () => {
     return (

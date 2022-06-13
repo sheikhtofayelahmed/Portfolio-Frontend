@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "image":"capture/Capture1.png",
+        "name":"Warehouse management",
+        "short_description":"A web application for a dealer for updating and managing products(stock) | Full stack project",
+        "full_description":"",
+        "site":"https://warehouse-management-b22f6.web.app/",
+        "frontend":"https://github.com/tofayel101/Warehouse-management-frontend",
+        "backend":"https://github.com/tofayel101/Warehouse-management-backend"
+    },
+    {
+        "id":2,
+        "image":"capture/Capture2.png",
+        "name":"gym trainer",
+        "short_description":"A web application for a gym trainer for purchasing his service and products | Full stack project",
+        "full_description":"",
+        "site":"https://gym-trainer-95cdd.web.app/",
+        "frontend":"https://github.com/tofayel101/Gym-Trainer-Frontend",
+        "backend":"https://github.com/tofayel101/Gym-Trainer-Backend"
+    },
+    {
+        "id":3,
+        "image":"capture/Capture3.jpg",
+        "name":"tools manufacturer",
+        "short_description":"A web application for a company for purchasing and managing tools | Full stack project",
+        "full_description":"",
+        "site":"https://tools-manufacturer-88bc3.web.app/",
+        "frontend":"https://github.com/tofayel101/Tools-Manufacturer-Frontend",
+        "backend":"https://github.com/tofayel101/Tools-Manufacturer-Backend"
+    }
+]
