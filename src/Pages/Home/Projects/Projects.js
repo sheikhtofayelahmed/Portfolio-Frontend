@@ -8,7 +8,6 @@ import useProject from "../../../Hooks/useProject";
 import Project from "./Project/Project";
 const Projects = () => {
   const [project]=useProject()
-  console.log(project)
   return (
     <div className="Projects">
       <h1 className="heading">latest project</h1>

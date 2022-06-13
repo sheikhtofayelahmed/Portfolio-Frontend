@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Project.css'
 const Project = ({project}) => {
-    const {id,image,name,short_description,site}=project
+    const {_id,image,name,short_description,site}=project
     return (
         <div className="project">
         <img src={image} alt="" />
@@ -12,7 +12,7 @@ const Project = ({project}) => {
           {short_description}
         </p>
         <div className="project-button">
-          <button type="submit" className="btn3"><Link to={`/project/:${id}`}>details</Link></button>
+          <button type="submit" className="btn3"><Link to={`/projects/${_id}`}>details</Link></button>
           <button type="submit" className="btn3">
             <a href={site}>Live site </a>
           </button>

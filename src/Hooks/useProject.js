@@ -3,9 +3,8 @@ import { useState } from "react";
 
 const useProject = () => {
   const [project, setProject] = useState([]);
-  console.log(project)
   useEffect(() => {
-    fetch("project.json")
+    fetch("https://nameless-bastion-97335.herokuapp.com/projects")
     .then(res=>res.json())
     .then(data=>setProject(data));
   }, []);
