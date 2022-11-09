@@ -1,4 +1,4 @@
-.banner {
+/* .banner {
   position: relative;
 }
 .details {
@@ -96,4 +96,11 @@
   .details h1 {
     font-size: 5rem;
   }
+} */
+
+
+.banner h1{
+  text-align: center;
+  margin-top: 35vh;
+  font-size: 2rem;
 }

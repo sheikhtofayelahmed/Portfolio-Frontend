@@ -33,7 +33,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="navigation-desktop">
+      {/* <div className="navigation-desktop">
               <ul>
                 <li >
                   <a href="https://drive.google.com/file/d/1te9wyBYCSSgdFuUJTfGDYRtt0LmFrGVI/view?usp=sharing">
@@ -47,7 +47,7 @@ const Navbar = () => {
                   Blog
                 </li>
               </ul>
-            </div>
+            </div> */}
       <div className="navigation-phone">
         {sidebar ? (
           <>

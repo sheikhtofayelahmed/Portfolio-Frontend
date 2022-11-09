@@ -5,7 +5,9 @@ import "animate.css";
 const Banner = () => {
   return (
     <div className="banner">
-      <div className="image">
+            <h1>Working on the upgraded version. Sorry for the inconvenience</h1>
+
+      {/* <div className="image">
         <img src={banner} alt="" />
       </div>
 
@@ -18,7 +20,7 @@ const Banner = () => {
           <button className="btn-1 animate__animated animate__fadeInLeft animate__delay-2s">who i am</button>
           <button className="btn-2 animate__animated animate__fadeInRight animate__delay-2s">contact me</button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
